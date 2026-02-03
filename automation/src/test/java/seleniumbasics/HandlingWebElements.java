@@ -5,6 +5,22 @@ import org.openqa.selenium.WebElement;
 
 public class HandlingWebElements extends Base {
 	
+	//WebElement Methods
+	
+	//click()
+	//clear()
+	//sendKeys()
+	//getText()
+	//getTagName()
+	//getCssValue()
+	
+	
+	//isSelected()
+	//isDisplayed()
+	//isEnabled()
+	
+	
+	
 	public void verifyWebElement()
 	{
 		//Navigate to the specific page
@@ -13,16 +29,27 @@ public class HandlingWebElements extends Base {
 		//WebElement for the message box
 		WebElement messageBox = driver.findElement(By.xpath("//input[@id='single-input-field']"));
 		
+		
+		//isSelected 
+		//gives true when a checkbox, radiobutton etc is selected
+		System.out.println("Is the Messagebox selected : " +messageBox.isSelected());
+		
 		//sendKeys()
 		messageBox.sendKeys("Sample Test message");
-		
-		//WebElement for the show message button
+					
+		//show message button WebElement
 		WebElement showMessageButton = driver.findElement(By.xpath("//button[@id='button-one']"));
+		
+		//isDisplayed()
+		System.out.println("Is the Show message button displayed : "+showMessageButton.isDisplayed());
+		
+		//isEnabled()
+		System.out.println("Is the Show message button enabled : "+showMessageButton.isEnabled());
 		
 		//click()
 		showMessageButton.click();
 		
-		//WebElement for the your message field
+		//your message field WebElement
 		WebElement yourMessage = driver.findElement(By.xpath("//div[@id='message-one']"));
 		
 		//getText()
@@ -31,7 +58,7 @@ public class HandlingWebElements extends Base {
 		//clear()
 		messageBox.clear();
 		
-		//WebElement for Total button
+		//Total button WebElement
 		WebElement totalButton = driver.findElement(By.id("button-two"));
 		
 		//getTagName()

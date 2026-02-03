@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-03T11:56:07 IST" name="Default suite" finished-at="2026-02-03T11:56:34 IST" duration-ms="27032">
+    <groups>
+    </groups>
+    <test started-at="2026-02-03T11:56:07 IST" name="Default test" finished-at="2026-02-03T11:56:34 IST" duration-ms="27032">
+      <class name="seleniumbasics.LoginTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:07 IST" name="initializeDriver" finished-at="2026-02-03T11:56:11 IST" duration-ms="4389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyUserLoginWithInvalidUsernameAndInvalidPassword()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:11 IST" name="verifyUserLoginWithInvalidUsernameAndInvalidPassword" finished-at="2026-02-03T11:56:15 IST" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:15 IST" name="browserCloseAndQuit" finished-at="2026-02-03T11:56:15 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:15 IST" name="initializeDriver" finished-at="2026-02-03T11:56:19 IST" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyUserLoginWithInvalidUsernameAndValidPassword()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:19 IST" name="verifyUserLoginWithInvalidUsernameAndValidPassword" finished-at="2026-02-03T11:56:19 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:19 IST" name="browserCloseAndQuit" finished-at="2026-02-03T11:56:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:19 IST" name="initializeDriver" finished-at="2026-02-03T11:56:24 IST" duration-ms="4148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyUserLoginWithValidUsernameAndInvalidPassword()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:24 IST" name="verifyUserLoginWithValidUsernameAndInvalidPassword" finished-at="2026-02-03T11:56:25 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:25 IST" name="browserCloseAndQuit" finished-at="2026-02-03T11:56:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:25 IST" name="initializeDriver" finished-at="2026-02-03T11:56:30 IST" duration-ms="4770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyUserLoginWithValidUsernameAndValidPassword()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:30 IST" name="verifyUserLoginWithValidUsernameAndValidPassword" finished-at="2026-02-03T11:56:34 IST" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:seleniumbasics.LoginTest@34a3d150]" started-at="2026-02-03T11:56:34 IST" name="browserCloseAndQuit" finished-at="2026-02-03T11:56:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+      </class> <!-- seleniumbasics.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

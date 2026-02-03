@@ -6,20 +6,26 @@ public class HandlingBrowserCommands extends Base{
 		
 		//driver.commands
 		
-		//driver.get()
+		
+		//driver.findElement()
 		//driver.manage()
+		//driver.switchTo()
+		
 		
 		//driver.close()
 		//driver.quit()
+				
 		
-		//driver.findElement()
-		
+		//driver.get()
 		//driver.getTitle()
 		//driver.getCurrentUrl()
 		//driver.getWindowHandle()
 		//driver.getPageSource()
 		
 		//driver.navigate().to()
+		//driver.navigate().back()
+		//driver.navigate().forward()
+		//driver.navigate().refresh()
 		
 		
 		

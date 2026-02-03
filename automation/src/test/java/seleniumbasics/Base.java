@@ -11,7 +11,7 @@ public class Base {
 		
 	public void initializeDriver() {
 		
-		//initializing the reference variable driver witht he ChromeDriver class
+		//initializing the reference variable driver with the ChromeDriver class that implements the WebDriver interface
 		driver = new ChromeDriver();
 		
 		//launching the url under test
@@ -19,6 +19,7 @@ public class Base {
 		
 		//maximize the window
 		driver.manage().window().maximize();
+		
 	}
 	
 	public void browserCloseAndQuit() {

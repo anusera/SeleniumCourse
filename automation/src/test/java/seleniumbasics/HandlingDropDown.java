@@ -14,11 +14,29 @@ public class HandlingDropDown extends Base {
 		//select.deselectByVisibleText("sql");
 		//select.selectByValue("python");
 	}
+	
+	public void verifyCheckBox()
+	{
+		driver.navigate().to("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
+		WebElement checkBox1 = driver.findElement(By.xpath("//input[@value='option-1']"));
+		System.out.println(checkBox1.isSelected());
+		checkBox1.click();
+		//System.out.println(checkBox1.isSelected());
+	}
+	
+	public void verifyRadioButton()
+	{
+		driver.navigate().to("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
+		WebElement radioButton4 = driver.findElement(By.xpath("//input[@value='orange']"));
+		radioButton4.click();
+	}
 
 	public static void main(String[] args) {
 		HandlingDropDown dropDown = new HandlingDropDown();
 		dropDown.initializeDriver();
-		dropDown.verifyDropDown();
+		//dropDown.verifyDropDown();
+		dropDown.verifyCheckBox();
+		//dropDown.verifyRadioButton();
 		
 	}
 
