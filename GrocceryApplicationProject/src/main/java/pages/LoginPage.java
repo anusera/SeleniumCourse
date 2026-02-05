@@ -20,6 +20,7 @@ public class LoginPage {
 	@FindBy(xpath = "//button[@type='submit']")WebElement signInButton;
 	
 	
+	
 	public void enterUsernameOnUsernameField(String username)
 	{
 		usernameField.sendKeys(username);
